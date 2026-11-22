@@ -1,0 +1,400 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="twoJS_Wx6IK-BCfD-pfb">
+    <mxGraphModel dx="1042" dy="2762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Marketing admin&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="-2060" as="geometry" />
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Content item" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="database" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="-2040" as="geometry" />
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="POUFKnK-L9ZUtcTABlsa-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-350" as="sourcePoint" />
+            <mxPoint x="260" y="-1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" target="POUFKnK-L9ZUtcTABlsa-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-350" as="sourcePoint" />
+            <mxPoint x="90" y="-1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="token">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="240" y="-1910" as="sourcePoint" />
+            <mxPoint x="80" y="-1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="login">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="80" y="-1950" as="sourcePoint" />
+            <mxPoint x="240" y="-1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-15" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.443;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" target="POUFKnK-L9ZUtcTABlsa-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-350" as="sourcePoint" />
+            <mxPoint x="450" y="-1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-16" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="POUFKnK-L9ZUtcTABlsa-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="-1880" as="sourcePoint" />
+            <mxPoint x="795" y="-1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1940" as="sourcePoint" />
+            <mxPoint x="410" y="-1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="-1930" as="sourcePoint" />
+            <mxPoint x="240" y="-1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="-360" as="sourcePoint" />
+            <mxPoint x="770" y="-1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-1860" as="sourcePoint" />
+            <mxPoint x="240" y="-1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-45" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="navigateToReports()" vertex="1">
+          <mxGeometry relative="1" x="0.145" y="-2" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="-1810" as="sourcePoint" />
+            <mxPoint x="240" y="-1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1830" as="sourcePoint" />
+            <mxPoint x="770" y="-1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1790" as="sourcePoint" />
+            <mxPoint x="80" y="-1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-48" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="displayReportsMenu()" vertex="1">
+          <mxGeometry relative="1" x="0.19" y="4" as="geometry">
+            <mxPoint x="15" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-1720" as="sourcePoint" />
+            <mxPoint x="240" y="-1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-53" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="selectCategoryReport()" vertex="1">
+          <mxGeometry relative="1" x="-0.265" y="-1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-51" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-1675" as="sourcePoint" />
+            <mxPoint x="240" y="-1675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1650" as="sourcePoint" />
+            <mxPoint x="80" y="-1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-58" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="displayParameterForm()" vertex="1">
+          <mxGeometry relative="1" x="0.0025" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1700" as="sourcePoint" />
+            <mxPoint x="410" y="-1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-59" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1400" as="sourcePoint" />
+            <mxPoint x="600" y="-1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-81" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="getAllCategories" vertex="1">
+          <mxGeometry relative="1" x="-0.5133" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-1410" as="sourcePoint" />
+            <mxPoint x="240" y="-1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-68" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="generateReport()" vertex="1">
+          <mxGeometry relative="1" x="-0.115" y="-1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-1510" />
+              <mxPoint x="320" y="-1470" />
+            </Array>
+            <mxPoint x="240" y="-1510" as="sourcePoint" />
+            <mxPoint x="240" y="-1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-80" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="validate Parameters()" vertex="1">
+          <mxGeometry relative="1" x="-0.59" y="-4" as="geometry">
+            <mxPoint x="29" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-63" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-1540" as="sourcePoint" />
+            <mxPoint x="240" y="-1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-64" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="enterParameters()" vertex="1">
+          <mxGeometry relative="1" x="0.135" y="-1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-65" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="POUFKnK-L9ZUtcTABlsa-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="-360" as="sourcePoint" />
+            <mxPoint x="620" y="-1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-70" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="-1360" as="sourcePoint" />
+            <mxPoint x="410" y="-1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-82" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="fetchCategoryData()" vertex="1">
+          <mxGeometry relative="1" x="-0.0484" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-74" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-1330" as="sourcePoint" />
+            <mxPoint x="600" y="-1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-75" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CategoryRecords" vertex="1">
+          <mxGeometry relative="1" x="-0.5311" y="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-76" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="-1290" as="sourcePoint" />
+            <mxPoint x="240" y="-1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-77" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CategoryList" vertex="1">
+          <mxGeometry relative="1" x="-0.5644" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-78" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1250" as="sourcePoint" />
+            <mxPoint x="780" y="-1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-83" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="getContentByCategory(CategoryID)" vertex="1">
+          <mxGeometry relative="1" x="-0.7052" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-84" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="-1220" as="sourcePoint" />
+            <mxPoint x="410" y="-1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-85" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="fetchContentData()" vertex="1">
+          <mxGeometry relative="1" x="-0.6504" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-86" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-1160" as="sourcePoint" />
+            <mxPoint x="780" y="-1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-87" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="content records" vertex="1">
+          <mxGeometry relative="1" x="-0.5373" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-88" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="-1120" as="sourcePoint" />
+            <mxPoint x="240" y="-1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-89" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ContentList" vertex="1">
+          <mxGeometry relative="1" x="-0.6911" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-90" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-1060" as="sourcePoint" />
+            <mxPoint x="780" y="-1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-97" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="getSalesStatistics()" vertex="1">
+          <mxGeometry relative="1" x="-0.6921" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-91" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-650" as="sourcePoint" />
+            <mxPoint x="80" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-101" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="display report()" vertex="1">
+          <mxGeometry relative="1" x="-0.4521" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-92" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-780" />
+              <mxPoint x="320" y="-720" />
+            </Array>
+            <mxPoint x="240" y="-780" as="sourcePoint" />
+            <mxPoint x="240" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-103" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-92" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="generateCharts()" vertex="1">
+          <mxGeometry relative="1" x="-0.0018" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-93" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-870" />
+              <mxPoint x="320" y="-830" />
+            </Array>
+            <mxPoint x="240" y="-870" as="sourcePoint" />
+            <mxPoint x="240" y="-830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-102" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="aggregateData()" vertex="1">
+          <mxGeometry relative="1" x="0.038" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-94" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="-900" as="sourcePoint" />
+            <mxPoint x="240" y="-900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-100" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="sales stats" vertex="1">
+          <mxGeometry relative="1" x="-0.6652" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-95" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="-950" as="sourcePoint" />
+            <mxPoint x="780" y="-950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-99" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-95" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="sales records" vertex="1">
+          <mxGeometry relative="1" x="-0.4724" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-96" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="-1010" as="sourcePoint" />
+            <mxPoint x="410" y="-1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-98" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-96" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="fetchSalesData()" vertex="1">
+          <mxGeometry relative="1" x="-0.4789" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-104" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="-560" as="sourcePoint" />
+            <mxPoint x="240" y="-560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-107" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-104" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="exportReport(format)" vertex="1">
+          <mxGeometry relative="1" x="-0.055" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-105" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-530" />
+              <mxPoint x="320" y="-480" />
+            </Array>
+            <mxPoint x="240" y="-530" as="sourcePoint" />
+            <mxPoint x="240" y="-480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-108" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-105" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="createExportFile(format)" vertex="1">
+          <mxGeometry relative="1" x="0.0171" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-106" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="-400" as="sourcePoint" />
+            <mxPoint x="80" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POUFKnK-L9ZUtcTABlsa-109" connectable="0" parent="POUFKnK-L9ZUtcTABlsa-106" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="downloadFile()" vertex="1">
+          <mxGeometry relative="1" x="0.0175" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
